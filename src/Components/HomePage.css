@@ -1,0 +1,89 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0rem;
+  background-color: rgb(149, 232, 235);
+  font-size: 20px;
+}
+
+.logo {
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: 'Georgia', serif;
+  color:rgb(141, 4, 64);
+  text-shadow: 3px 5px 10px rgb(224, 84, 161);
+}
+
+.menu ul {
+  list-style-type: none;
+  gap: 2rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+  margin: 0;
+}
+
+.menu ul li {
+  display: inline;
+
+}
+
+.menu ul li a, .menu ul li button {
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+/* Main section */
+.carousel-image {
+  height: 80vh;
+  width: 100%;
+  object-fit: cover;
+  margin-top: 10px;
+}
+
+main h3{
+  color: white;
+}
+main p{
+  color: black;
+}
+
+/* Footer section */
+.footer {
+  background-color: rgb(149, 232, 235);
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  gap: 2rem;
+}
+
+.footer li {
+  margin: 10px 20px;
+}
+
+
+.card-body img{
+  width: 300px;
+  height:auto;
+  transition:0.5s
+
+}
+
+
+
+
+.card-body img:hover {
+  transform: scale(1.1);
+}
